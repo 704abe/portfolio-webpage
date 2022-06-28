@@ -31,5 +31,6 @@ THEN I am presented with a responsive layout that adapts to my viewport
 ![Screenshot of image link](Assets/portfolio-ss-img.png)
 ![Screenshot of enlarged image link](Assets/portfolio-ss-img-large.png)
 
-https://704abe.github.io/portfolio-webpage/
+Deployed Webpage: https://704abe.github.io/portfolio-webpage/ <br>
+GitHub Repository: 
 https://github.com/704abe/portfolio-webpage
