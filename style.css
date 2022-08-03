@@ -4,6 +4,11 @@
     box-sizing: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+html, body, main {
+    width: 100%;
+}
+
 /* header */
 .header {
     display: flex;
@@ -58,10 +63,16 @@ h2 {
 }
 /* image under header */
 .hero {
-    height: 200px;
+    height: 600px;
     width: 100%;
     object-fit: cover;
+    object-position: 50% 17%;
 }
+
+.my-work {
+    width: 100%;
+}
+
 /* section text */
 p, ul, li {
     color: grey;
@@ -75,31 +86,59 @@ a {
     text-decoration: none;
 }
 /* Application thumbnails */
+.thumbnails {
+    width: 100%;
+}
+
 .thumbnail {
     display: block;
     height: 270px;
-    width: 480px;
+    width: fit-content;
     padding: 20px;
     transition: transform .25s;
 }
 
 .thumbnail2 {
-    height: 144px;
+    height: fit-content;
     width: 256px;
     padding: 90px;
     transition: transform .25s;
 }
 
-#horiseon {
+#primary {
     margin-left: auto;
     margin-right: auto;
     padding: 90px;
+    width: fit-content;
+}
+
+/* .secondRow {
+    height: fit-content;
+} */
+
+.caption {
+    text-align: center;
 }
 
 .thumbnail:hover {
-    transform: scale(1.5);
+    transform: scale(1.1);
 }
 
 .thumbnail2:hover {
-    transform: scale(1.5);
+    transform: scale(1.1);
+}
+
+.primary {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.secondary {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+a {
+    height: fit-content;
 }
